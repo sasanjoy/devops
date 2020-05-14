@@ -9,7 +9,8 @@ public class WelcomeController {
 
 	@RequestMapping("/")
 	public String welcome(Model model) {
-		model.addAttribute("course", "DevOps");
+		model.addAttribute("course", "Devops Course");
+		model.addAttribute("instructor", "Sanjoy sa");
 		return "index";
 	}
 
